@@ -1,0 +1,10 @@
+import UIKit
+
+extension UIImageView {
+    func applyBlurEffect(_ effect: UIBlurEffect) {
+        let visualEffectView = UIVisualEffectView(effect: effect)
+        visualEffectView.frame = self.bounds
+        visualEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        self.addSubview(visualEffectView)
+    }
+}
