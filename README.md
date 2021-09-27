@@ -1,3 +1,4 @@
 # Extensions
 Useful extensions
-### Transparent NavigationBar
+#### Transparent NavigationBar
+#### BlurEffect on View / ImageView
